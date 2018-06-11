@@ -1,0 +1,608 @@
+/*Main Content*/
+div, footer, header, h1, h2, h3, img, label, li, nav, p, ul {
+       border: 0;
+       padding: 0;
+       margin: 0;
+}
+
+body {
+      background:#333333;
+}
+
+h1, h2, h3, h4 {
+      font-family: 'Trade Winds', cursive;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 1.3vw; */
+}
+
+header {
+      width: 100%;
+      height: 100px;
+      background: #000000;
+      margin-bottom: 1vw;
+      padding: 0;
+}
+
+header:after{
+      position: absolute;
+      width: cover;
+      height: 30%;
+      content: '';
+      background: inherit;
+      z-index: -1;
+      top: 0;
+      right: -5vw;
+      bottom: 0;
+      left: -1vw;
+      transform-origin: top right;
+      transform:skewY(-4deg);
+      /* box-shadow: 5px 10px 20px 3px black; */
+      box-shadow: 20px 5px 15px black, 15px 15px 8px red, 15px 10px 8px white;
+}
+
+
+/*Navigation Menu */
+/* div.navigation-menu-button {
+		display:none;
+		float:right;
+	}
+nav.sitenavigation {
+	/*margin-top: 2.5em;
+	padding: .5em;
+	text-align: right;
+  color: red;
+	font-size: 2vw;
+	/*font-weight: bold;
+  font-family: 'Trade Winds', cursive;
+	float:right;
+}
+nav.sitenavigation li {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0;
+}
+nav.sitenavigation a:link {
+	text-decoration: none;
+	color: red;
+}
+nav.sitenavigation a:visited {
+	color: red;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+	color: #ffffff;
+} */
+
+#CallUs{
+      margin-left: 49vw;
+      margin-top: -17vw;
+      text-align:  right;
+      clear: right;
+}
+
+/* Shews my letters */
+#headerh2{
+      -webkit-transform: rotate(-4deg);
+      -moz-transform: rotate(-4deg);
+      text-align: right;
+      margin:0 auto;
+      padding: 0;
+      color:red;
+      font-size: 2.5vw;
+}
+
+a:link {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+/* #testdiv{
+      margin-top: 13em;
+      color: white;
+      padding: 1em;
+      background-color: 333333;
+} */
+
+#TheShop{
+      margin-top: 7vw;
+      z-index: -2;
+      background-image: url("images/Shop2.jpg");
+      height: 33vw;
+      width: cover;
+      background-size: cover;
+      position: relative;
+}
+
+#iconDiv {
+      height: 11vw;
+      position: relative;
+      z-index: 1;
+      padding: .5vw;
+}
+#icons{
+      background-color: red;
+      margin:1vw;
+      margin-bottom: 1.5vw;
+      padding: .5vw;
+      text-align: center;
+      color: white;
+}
+
+#mission {
+      z-index: 1;
+      color:white;
+      width: cover;
+      height: 17vw;
+      background: black;
+      position:relative;
+      text-align: center;
+      padding: 1vw;
+      font-size: 1.25vw;
+      box-shadow: 0 0 5px 15px black;
+}
+
+#diagnostics {
+     z-index: 1;
+     color:black;
+     position: relative;
+     width: cover;
+     height: 25vw;
+     background: red;
+     text-align: left;
+     padding: 1vw;
+     font-size: 1.25vw;
+     box-shadow: 0 0 5px 15px red;
+}
+
+/* #div2:after{
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  content: '';
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin:right;
+  transform:skewY(-4deg);
+} */
+
+#repair {
+     z-index: 1;
+     color:black;
+     position: relative;
+     width: cover;
+     height: 30vw;
+     background: #333333;
+     text-align: left;
+     padding: .75vw;
+     box-shadow: 0 0 5px 15px #333333;
+     font-size: 1.25vw;
+}
+#repair p{
+    margin-right: 0vw;
+    margin-left: -1vw;
+    padding: 0;
+}
+
+#goldTruck{
+    margin-left: -5vw;
+}
+
+#tuning {
+    z-index: 1;
+    color:black;
+    position: relative;
+    width: cover;
+    height: 25vw;
+    background: red;
+    text-align: left;
+    padding: .5vw;
+    box-shadow: 0 0 5px 15px red;
+    font-size: 1.25vw;
+}
+
+#performance {
+    z-index: 1;
+    color:black;
+    position: relative;
+    width: cover;
+    height: 35vw;
+    background: #333333;
+    text-align: left;
+    /* padding: .5vw; */
+    box-shadow: 0 0 5px 15px #333333;
+    font-size: 1.25vw;
+}
+
+#support{
+  z-index: 1;
+  color:black;
+  position: relative;
+  width: cover;
+  height: 25vw;
+  background: red;
+  text-align: left;
+  padding: 2vw;
+  box-shadow: 0 0 5px 15px red;
+  font-size: 1.25vw;
+  margin: .5vw;
+}
+
+/* Footer */
+footer{
+    z-index: 1;
+    background: black;
+    color:white;
+    padding: .5vw;
+    box-shadow: 0 0 5px 15px black;
+    position: relative;
+}
+
+/* Medium Screen */
+@media only screen and (max-width: 992px) {
+  p{
+    font-size: 1.5vw;
+  }
+  #iconDiv {
+        visibility: hidden;
+  }
+  #icons{
+        visibility: hidden;
+  }
+
+  #mission{
+    height: 25vw;
+    text-align: center;
+  }
+  #mission p{
+    font-size: 2vw;
+  }
+
+  #diagnostics{
+    height: 40vw;
+    padding: 1vw;
+    margin-left: 1vw;
+  }
+
+  #diagnostics p {
+    font-size: 2vw;
+    margin-left: 1vw;
+  }
+
+  #Jeremiah{
+    max-width: 40vw;
+  }
+  #repair{
+    height: 67vw;
+    margin-left: 1vw;
+  }
+
+  #repair p {
+    font-size: 2.5vw;
+  }
+
+  #blackTruck{
+    max-width: 40vw;
+  }
+
+  #goldTruck{
+    max-width: 40vw;
+    margin-left: .5vw;
+    margin-top: -25vw;
+  }
+
+  #tuning{
+    height: 40vw;
+    margin-left: 1vw;
+  }
+
+  #tuning p{
+    font-size: 2vw;
+  }
+
+  #shop{
+    max-width: 40vw;
+  }
+
+  #performance{
+    height: 85vw;
+    margin-left: 1vw;
+  }
+
+  #performance p {
+    font-size: 2.5vw;
+  }
+
+  #block{
+    max-width: 40vw;
+  }
+
+  #southbend{
+    max-width: 40vw;
+    margin-left: .5vw;
+    margin-top: -40vw;
+  }
+
+  #pow{
+    max-width: 30vw;
+  }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 768px) {
+    body{
+      background-color: black;
+    }
+
+    p{
+      font-size: 3vw;
+      text-align: justify;
+    }
+
+    h1{
+      font-size: 6vw;
+      text-align: center;
+    }
+
+    h2{
+      font-size: 5vw;
+    }
+
+    h4{
+      font-size: 4vw;
+    }
+
+    #headerh2{
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          text-align: center;
+    }
+
+    header:after{
+          position: absolute;
+          width: cover;
+          height: 30%;
+          transform:skewY(0deg);
+          box-shadow: none;
+    }
+
+    header {
+          width: 100%;
+          height: 55vw;
+          background: #000000;
+          margin-bottom: 1vw;
+          padding: 0;
+    }
+
+    #CallUs{
+          margin-left: 0vw;
+          margin-top: -1vw;
+    }
+
+    #headerh2{
+        font-size: 3.5vw;
+    }
+
+    #TheShop{
+          margin-top: 0;
+          z-index: -2;
+          background-size: cover;
+          position: relative;
+    }
+
+    #mission{
+          box-shadow: none;
+          height: 40vw;
+          width: cover;
+          text-align:center;
+          margin-top: -10vw;
+    }
+
+    #mission p{
+      font-size: 3vw;
+    }
+
+    #diagnostics{
+        box-shadow: none;
+        width: 100%;
+        height: 100vw;
+        align-items: center;
+    }
+
+    #diagnostics p{
+      font-size: 3vw;
+    }
+
+    #Jeremiah{
+        max-width: 85%;
+        margin-left: 9vw;
+    }
+
+    #repair{
+        box-shadow: none;
+        height: 175vw;
+        align-items: center;
+    }
+
+    #repair p{
+      font-size: 3.5vw;
+    }
+
+    #repair h1{
+      margin-top: 19vw;
+    }
+
+    #blackTruck{
+        max-width: 85%;
+        margin-left: 9vw;
+        margin-bottom: -20vw;
+    }
+
+    #goldTruck{
+        max-width: 85%;
+        margin-left: 9vw;
+        margin-top: 1vw;
+    }
+
+    #tuning{
+        box-shadow: none;
+        height: 75vw;
+    }
+
+    #tuning p{
+      font-size: 3vw;
+    }
+
+    #shop{
+        max-width: 85%;
+        margin-left: 9vw;
+    }
+
+    #performance{
+        box-shadow: none;
+        height: 165vw;
+    }
+
+    #performance p {
+      font-size: 3vw;
+    }
+
+    #block{
+        max-width: 85%;
+        margin-top: 5vw;
+        margin-left: 9vw;
+    }
+
+    #southbend{
+      margin-top: 1vw;
+      max-width: 85%;
+    }
+
+    #support{
+      box-shadow: none;
+      height: 25vw;
+    }
+
+    #weSupport{
+      max-height: 85%;
+      margin-top: 5vw;
+    }
+
+    #pow{
+      max-height: 85%;
+    }
+
+    footer{
+        box-shadow: none;
+        text-align: center;
+    }
+
+    #spider{
+        max-width: 85%;
+    }
+}
+
+/* Cell Phones */
+@media only screen and (max-width: 576px){
+  p{
+      font-size: 4vw;
+  }
+
+  #headerh2{
+      font-size: 4.5vw;
+  }
+
+  #mission{
+      height: 70vw;
+  }
+
+  #mission p{
+    font-size: 4vw;
+  }
+
+  #diagnostics{
+      height: 145vw;
+  }
+
+  #diagnostics p{
+      font-size: 4.25vw;
+  }
+
+  #Jeremiah{
+    margin-top: -15vw;
+  }
+
+  #repair{
+    background: none;
+    color: white;
+    height: 205vw;
+  }
+
+  #repair p{
+    font-size: 4.25vw;
+  }
+
+  #blackTruck{
+    margin-top: 5vw;
+    margin-bottom: -12vw;
+  }
+
+  #goldTruck{
+    margin-top: 5vw;
+  }
+
+  #tuning{
+    height: 100vw;
+  }
+
+  #tuning p {
+    font-size: 4.25vw;
+  }
+
+  #shop{
+    max-width: 100%;
+    margin-left: 1vw;
+  }
+  #performance{
+    background: none;
+    color: white;
+    height: 220vw;
+    width: 100%;
+  }
+
+  #performance p {
+    font-size: 4.25vw;
+  }
+
+  #block{
+    margin-bottom: 5vw;
+  }
+
+  #southbend{
+    max-width: 100%;
+  }
+
+  #support{
+    height:80vw;
+  }
+
+  #weSupport{
+    max-height: 55%;
+  }
+
+  #pow{
+    max-height: none;
+    max-width: 50%;
+    height: 30vw;
+  }
+}
