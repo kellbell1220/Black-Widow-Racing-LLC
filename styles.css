@@ -9,40 +9,50 @@ body {
       background:#333333;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3{
       font-family: 'Trade Winds', cursive;
+      font-size: 4vw;
+}
+
+h4{
+  font-family: 'Trade Winds', cursive;
+  font-size: 3vw;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    /* font-size: 1.3vw; */
+    font-size: 2vw;
+    font-weight: bold;
 }
 
 header {
       width: 100%;
-      height: 100px;
+      height: 15vw;
       background: #000000;
-      margin-bottom: 1vw;
-      padding: 0;
 }
 
 header:after{
       position: absolute;
-      width: cover;
-      height: 30%;
+      width: 120vw;
+      height: 15vw;
       content: '';
       background: inherit;
       z-index: -1;
       top: 0;
       right: -5vw;
       bottom: 0;
-      left: -1vw;
+      /* left: -1vw; */
       transform-origin: top right;
       transform:skewY(-4deg);
-      /* box-shadow: 5px 10px 20px 3px black; */
       box-shadow: 20px 5px 15px black, 15px 15px 8px red, 15px 10px 8px white;
 }
 
+#logo{
+  margin-top: 2vw;
+}
+#CallUs{
+  padding-top: 2vw;
+}
 
 /*Navigation Menu */
 /* div.navigation-menu-button {
@@ -87,8 +97,6 @@ nav.sitenavigation a:hover, nav.sitenavigation a:focus {
       -webkit-transform: rotate(-4deg);
       -moz-transform: rotate(-4deg);
       text-align: right;
-      margin:0 auto;
-      padding: 0;
       color:red;
       font-size: 2.5vw;
 }
@@ -102,239 +110,171 @@ a:hover{
   text-decoration: underline;
 }
 
-
-/* #testdiv{
-      margin-top: 13em;
-      color: white;
-      padding: 1em;
-      background-color: 333333;
-} */
-
 #TheShop{
-      margin-top: 7vw;
       z-index: -2;
       background-image: url("images/Shop2.jpg");
       height: 33vw;
-      width: cover;
-      background-size: cover;
-      position: relative;
+      width: 100vw;
+      background-size: 100vw;
+      position: relative;  /* Must stay to keep div skewed */
 }
 
 #iconDiv {
-      height: 11vw;
-      position: relative;
-      z-index: 1;
-      padding: .5vw;
-}
-#icons{
+      padding: 1vw;
       background-color: red;
-      margin:1vw;
-      margin-bottom: 1.5vw;
-      padding: .5vw;
+      box-shadow: 0 0 5px 15px red;
+}
+
+#icons{
+      margin-right: 3vw;
+      margin-bottom: 2vw;
+      padding: 1vw;
       text-align: center;
       color: white;
 }
 
 #mission {
-      z-index: 1;
       color:white;
-      width: cover;
-      height: 17vw;
+      width: 100vw;
       background: black;
-      position:relative;
       text-align: center;
-      padding: 1vw;
-      font-size: 1.25vw;
+      padding: 3vw;
+      padding-bottom: 5vw;
       box-shadow: 0 0 5px 15px black;
 }
 
 #diagnostics {
-     z-index: 1;
      color:black;
-     position: relative;
-     width: cover;
-     height: 25vw;
+     width: 100vw;
      background: red;
-     text-align: left;
-     padding: 1vw;
-     font-size: 1.25vw;
+     padding: 2vw;
+     padding-bottom: 4vw;
      box-shadow: 0 0 5px 15px red;
 }
 
-/* #div2:after{
-  position: absolute;
-  width: 100%;
-  height: 30%;
-  content: '';
-  background: inherit;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin:right;
-  transform:skewY(-4deg);
-} */
+#diagnosticDesc{
+  margin-left: 5vw;
+  padding: 1vw;
+  width:45vw;
+}
+
+#Jeremiah{
+  float: right;
+  width: 40vw;
+  padding: 1vw;
+}
+
+#blackTruck{
+  width: 30vw;
+}
 
 #repair {
-     z-index: 1;
      color:black;
-     position: relative;
-     width: cover;
-     height: 30vw;
      background: #333333;
-     text-align: left;
-     padding: .75vw;
+     padding: 1vw;
+     padding-bottom: 5vw;
      box-shadow: 0 0 5px 15px #333333;
-     font-size: 1.25vw;
+     width:100vw;
 }
-#repair p{
-    margin-right: 0vw;
-    margin-left: -1vw;
-    padding: 0;
+#repairDesc{
+    padding: 1vw;
+    margin-left: 2vw;
+    width: 45vw;
 }
 
 #goldTruck{
-    margin-left: -5vw;
+    width: 45vw;
+    margin: 2vw;
 }
 
 #tuning {
-    z-index: 1;
     color:black;
-    position: relative;
-    width: cover;
-    height: 25vw;
+    width: 100vw;
     background: red;
-    text-align: left;
-    padding: .5vw;
+    padding: 2vw;
+    padding-bottom: 5vw;
     box-shadow: 0 0 5px 15px red;
-    font-size: 1.25vw;
+}
+
+#tuningDesc{
+  margin-left: 5vw;
+  padding-bottom: 2vw;
+  text-align: center;
+}
+
+#shop{
+  width: 70vw;
+  margin-left: 15vw;
 }
 
 #performance {
-    z-index: 1;
     color:black;
-    position: relative;
-    width: cover;
-    height: 35vw;
+    width: 100vw;
     background: #333333;
-    text-align: left;
-    /* padding: .5vw; */
+    padding: 2vw;
     box-shadow: 0 0 5px 15px #333333;
-    font-size: 1.25vw;
+}
+
+#performanceDesc{
+  padding: 1vw;
+  width:50vw;
+  display: inline-block;
+}
+#block{
+  float: right;
+  margin-right: 2vw;
+  margin-top: 2vw;
+  width: 40vw;
+}
+
+#southbend{
+  width: 30vw;
+}
+#fass{
+  width: 25vw;
 }
 
 #support{
-  z-index: 1;
   color:black;
-  position: relative;
-  width: cover;
-  height: 25vw;
+  width: 100vw;
   background: red;
-  text-align: left;
-  padding: 2vw;
+  padding-bottom: 2vw;
+  padding-left:20vw;
   box-shadow: 0 0 5px 15px red;
-  font-size: 1.25vw;
-  margin: .5vw;
+}
+
+#weSupport{
+  width: 35vw;
+  padding: 1vw;
+}
+
+#pow{
+  width: 20vw;
+  padding: 1vw;
 }
 
 /* Footer */
 footer{
-    z-index: 1;
     background: black;
     color:white;
     padding: .5vw;
     box-shadow: 0 0 5px 15px black;
-    position: relative;
+}
+
+#footerLogo{
+  text-align: center;
+  margin-top: 2vw;
+}
+#contactInfo{
+  margin-left: 2vw;
 }
 
 /* Medium Screen */
-@media only screen and (max-width: 992px) {
-  p{
-    font-size: 1.5vw;
-  }
+@media only screen and (max-width: 992px)
+{
   #iconDiv {
         visibility: hidden;
-  }
-  #icons{
-        visibility: hidden;
-  }
-
-  #mission{
-    height: 25vw;
-    text-align: center;
-  }
-  #mission p{
-    font-size: 2vw;
-  }
-
-  #diagnostics{
-    height: 40vw;
-    padding: 1vw;
-    margin-left: 1vw;
-  }
-
-  #diagnostics p {
-    font-size: 2vw;
-    margin-left: 1vw;
-  }
-
-  #Jeremiah{
-    max-width: 40vw;
-  }
-  #repair{
-    height: 67vw;
-    margin-left: 1vw;
-  }
-
-  #repair p {
-    font-size: 2.5vw;
-  }
-
-  #blackTruck{
-    max-width: 40vw;
-  }
-
-  #goldTruck{
-    max-width: 40vw;
-    margin-left: .5vw;
-    margin-top: -25vw;
-  }
-
-  #tuning{
-    height: 40vw;
-    margin-left: 1vw;
-  }
-
-  #tuning p{
-    font-size: 2vw;
-  }
-
-  #shop{
-    max-width: 40vw;
-  }
-
-  #performance{
-    height: 85vw;
-    margin-left: 1vw;
-  }
-
-  #performance p {
-    font-size: 2.5vw;
-  }
-
-  #block{
-    max-width: 40vw;
-  }
-
-  #southbend{
-    max-width: 40vw;
-    margin-left: .5vw;
-    margin-top: -40vw;
-  }
-
-  #pow{
-    max-width: 30vw;
+        position: absolute;
   }
 }
 
@@ -346,7 +286,7 @@ footer{
 
     p{
       font-size: 3vw;
-      text-align: justify;
+      text-align: left;
     }
 
     h1{
@@ -366,19 +306,22 @@ footer{
           -webkit-transform: rotate(0deg);
           -moz-transform: rotate(0deg);
           text-align: center;
+          font-size: 4vw;
     }
 
     header:after{
-          position: absolute;
-          width: cover;
-          height: 30%;
+          position: relative;
+          width: 100vw;
+          /* height: 30%; */
           transform:skewY(0deg);
           box-shadow: none;
     }
 
     header {
-          width: 100%;
-          height: 55vw;
+          width: 100vw;
+          position: relative;
+          height:auto;
+          /* height: 55vw; */
           background: #000000;
           margin-bottom: 1vw;
           padding: 0;
@@ -386,223 +329,194 @@ footer{
 
     #CallUs{
           margin-left: 0vw;
-          margin-top: -1vw;
+          margin-top: -5vw;
     }
 
-    #headerh2{
+    /* #headerh2{
         font-size: 3.5vw;
-    }
+    } */
 
     #TheShop{
-          margin-top: 0;
-          z-index: -2;
-          background-size: cover;
+          /* margin-top: 0; */
+          /* z-index: -2; */
+          /* background-size: 100vw; */
           position: relative;
+          /* height: auto; */
     }
 
     #mission{
           box-shadow: none;
-          height: 40vw;
-          width: cover;
-          text-align:center;
-          margin-top: -10vw;
-    }
-
-    #mission p{
-      font-size: 3vw;
+          text-align: center;
     }
 
     #diagnostics{
         box-shadow: none;
-        width: 100%;
-        height: 100vw;
         align-items: center;
     }
 
-    #diagnostics p{
-      font-size: 3vw;
+    #diagnosticDesc{
+      width:100vw;
     }
 
     #Jeremiah{
-        max-width: 85%;
-        margin-left: 9vw;
+      float: none;
+      margin-left: 25vw;
+      width: 50vw;
+        /* max-width: 85%;
+        margin-left: 20vw; */
     }
 
     #repair{
         box-shadow: none;
-        height: 175vw;
         align-items: center;
     }
 
-    #repair p{
-      font-size: 3.5vw;
-    }
-
-    #repair h1{
-      margin-top: 19vw;
-    }
-
-    #blackTruck{
-        max-width: 85%;
-        margin-left: 9vw;
-        margin-bottom: -20vw;
+    #repairDesc{
+      width: 100vw;
+      margin-left: 5vw;
     }
 
     #goldTruck{
-        max-width: 85%;
-        margin-left: 9vw;
-        margin-top: 1vw;
+        width: 50vw;
+        margin-left: 25vw;
+        /* margin-top: -2vw; */
     }
 
     #tuning{
         box-shadow: none;
-        height: 75vw;
     }
 
-    #tuning p{
-      font-size: 3vw;
+    #tuning h1{
+      padding-top: 1vw;
     }
 
     #shop{
-        max-width: 85%;
-        margin-left: 9vw;
+        margin-left: 15vw;
     }
 
     #performance{
         box-shadow: none;
-        height: 165vw;
-    }
-
-    #performance p {
-      font-size: 3vw;
     }
 
     #block{
-        max-width: 85%;
-        margin-top: 5vw;
-        margin-left: 9vw;
+        width:50vw;
+        float: none;
+        margin-left: 25vw;
+    }
+
+    #performanceDesc{
+      width: 100vw;
+      padding:2vw;
+      padding-right: 5vw;
     }
 
     #southbend{
       margin-top: 1vw;
-      max-width: 85%;
+      margin-left: 15vw;
+      /* max-width: 85%; */
     }
 
     #support{
       box-shadow: none;
-      height: 25vw;
-    }
-
-    #weSupport{
-      max-height: 85%;
-      margin-top: 5vw;
-    }
-
-    #pow{
-      max-height: 85%;
+      padding: 2vw;
+      width:100vw;
+      /* height: 25vw; */
+      padding-left: 12vw;
     }
 
     footer{
         box-shadow: none;
-        text-align: center;
+        padding:2vw;
+        padding-right: 4vw;
+        margin:2vw;
+    }
+    #spider{
+      padding: 2vw;
+      width:85vw;
     }
 
-    #spider{
-        max-width: 85%;
+    #contactInfo{
+      margin-left: 0vw;
     }
 }
 
 /* Cell Phones */
-@media only screen and (max-width: 576px){
-  p{
+@media only screen and (max-width: 575px){
+   p{
       font-size: 4vw;
-  }
-
-  #headerh2{
-      font-size: 4.5vw;
-  }
-
-  #mission{
-      height: 70vw;
-  }
-
-  #mission p{
-    font-size: 4vw;
-  }
-
-  #diagnostics{
-      height: 145vw;
-  }
-
-  #diagnostics p{
-      font-size: 4.25vw;
+      margin:1vw;
+      margin-right: 3vw;
+      text-align: left;
   }
 
   #Jeremiah{
-    margin-top: -15vw;
+    width:70vw;
+    margin-left: 15vw;
   }
-
-  #repair{
-    background: none;
-    color: white;
-    height: 205vw;
-  }
-
-  #repair p{
-    font-size: 4.25vw;
-  }
-
-  #blackTruck{
-    margin-top: 5vw;
-    margin-bottom: -12vw;
-  }
-
   #goldTruck{
-    margin-top: 5vw;
+    width:70vw;
+    margin-left: 15vw;
   }
-
-  #tuning{
-    height: 100vw;
-  }
-
-  #tuning p {
-    font-size: 4.25vw;
-  }
-
   #shop{
-    max-width: 100%;
-    margin-left: 1vw;
+  width:80vw;
+  margin-left: 10vw;
   }
-  #performance{
-    background: none;
-    color: white;
-    height: 220vw;
-    width: 100%;
-  }
-
-  #performance p {
-    font-size: 4.25vw;
-  }
-
   #block{
-    margin-bottom: 5vw;
+    width:70vw;
+    margin-left: 10vw;
+  }
+#support{
+  padding-left: 5vw;
+}
+#weSupport{
+  width:45vw;
+}
+#pow{
+  width: 35vw;
+}
+
+  footer span{
+    visibility: hidden;
+    position: absolute;
   }
 
-  #southbend{
-    max-width: 100%;
+  #contactInfo div{
+    margin-bottom: 2vw;
   }
 
-  #support{
-    height:80vw;
-  }
+}
 
-  #weSupport{
-    max-height: 55%;
-  }
+  @media only screen and (max-width: 454px)
+  {
 
-  #pow{
-    max-height: none;
-    max-width: 50%;
-    height: 30vw;
-  }
+    /* #Jeremiah
+    {
+      margin-left: 5vw;
+    }
+
+    #repair
+    {
+      margin-bottom: 5vw;
+    }
+
+    #goldTruck
+    {
+      margin-left: 3vw;
+      margin-bottom: 2vw;
+    }
+
+    #shop
+    {
+      margin-left: 0vw;
+    }
+
+    #block
+    {
+      margin-left: 3vw;
+    }
+
+    #southbend
+    {
+      margin-left: 0vw;
+    } */
 }
