@@ -7,6 +7,7 @@ div, footer, header, h1, h2, h3, img, label, li, nav, p, ul {
 
 body {
       background:#333333;
+      overflow-x: hidden;
 }
 
 h1, h2, h3{
