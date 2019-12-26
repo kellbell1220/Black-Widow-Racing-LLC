@@ -1,4 +1,4 @@
 # Black-Widow-Racing-LLC
 Website I designed for Black Widow Racing it can be found at www.blackwidowracingllc.com
 
-![Sample Output](images/blackwidowheader)
+![Sample Output](images/blackwidowheader.PNG)
