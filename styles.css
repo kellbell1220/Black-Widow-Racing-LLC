@@ -221,11 +221,18 @@ a:hover{
   width:50vw;
   display: inline-block;
 }
-#block{
+#slideShow{
   float: right;
   margin-right: 2vw;
   margin-top: 2vw;
   width: 40vw;
+}
+#slideShowImg{
+  width: 40vw;
+}
+#slideShowDesc{
+  color: white;
+  font-style: italic;
 }
 
 #southbend{
@@ -399,10 +406,13 @@ footer{
         box-shadow: none;
     }
 
-    #block{
+    #slideShow{
         width:50vw;
         float: none;
         margin-left: 25vw;
+    }
+    #slideShowImg{
+      width: 50vw;
     }
 
     #performanceDesc{
@@ -462,9 +472,12 @@ footer{
   width:80vw;
   margin-left: 10vw;
   }
-  #block{
+  #slideShow{
     width:70vw;
     margin-left: 10vw;
+  }
+  #slideShowImg{
+    width: 70vw;
   }
 #support{
   padding-left: 5vw;
@@ -485,39 +498,4 @@ footer{
     margin-bottom: 2vw;
   }
 
-}
-
-  @media only screen and (max-width: 454px)
-  {
-
-    /* #Jeremiah
-    {
-      margin-left: 5vw;
-    }
-
-    #repair
-    {
-      margin-bottom: 5vw;
-    }
-
-    #goldTruck
-    {
-      margin-left: 3vw;
-      margin-bottom: 2vw;
-    }
-
-    #shop
-    {
-      margin-left: 0vw;
-    }
-
-    #block
-    {
-      margin-left: 3vw;
-    }
-
-    #southbend
-    {
-      margin-left: 0vw;
-    } */
 }
