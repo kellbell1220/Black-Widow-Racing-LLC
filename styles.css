@@ -28,14 +28,14 @@ p {
 
 header {
       width: 100%;
-      height: 15vw;
+      height: 20vw;
       background: #000000;
 }
 
 header:after{
       position: absolute;
       width: 120vw;
-      height: 15vw;
+      height: 20vw;
       content: '';
       background: inherit;
       z-index: -1;
@@ -93,7 +93,7 @@ nav.sitenavigation a:hover, nav.sitenavigation a:focus {
       clear: right;
 }
 
-/* Shews my letters */
+/* Skews letters */
 #headerh2{
       -webkit-transform: rotate(-4deg);
       -moz-transform: rotate(-4deg);
@@ -228,11 +228,13 @@ a:hover{
   width: 40vw;
 }
 #slideShowImg{
-  width: 40vw;
+  width: 20vw;
+  margin-left: 10vw;
 }
 #slideShowDesc{
   color: white;
   font-style: italic;
+  text-align: center;
 }
 
 #southbend{
@@ -407,18 +409,23 @@ footer{
     }
 
     #slideShow{
-        width:50vw;
+        width:100vw;
         float: none;
-        margin-left: 25vw;
+        /* margin-left: 25vw; */
     }
     #slideShowImg{
-      width: 50vw;
+      margin-left: 35vw;
+      width: 35vw;
+    }
+    #slideShowDesc{
+      width: 100vw;
     }
 
     #performanceDesc{
       width: 100vw;
+      padding-left: 25vw;
       padding:2vw;
-      padding-right: 5vw;
+      padding-right: 10vw;
     }
 
     #southbend{
@@ -473,11 +480,15 @@ footer{
   margin-left: 10vw;
   }
   #slideShow{
-    width:70vw;
-    margin-left: 10vw;
+    /* width:70vw; */
+    /* margin-left: 10vw; */
   }
   #slideShowImg{
-    width: 70vw;
+    /* width: 50vw; */
+  }
+  #slideShowDesc{
+    width: 80vw;
+    margin-left: 10vw;
   }
 #support{
   padding-left: 5vw;
